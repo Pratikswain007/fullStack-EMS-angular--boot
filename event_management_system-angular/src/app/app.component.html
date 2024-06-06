@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">EMS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" [routerLink]="['/get']">Home</a>
+        <a class="nav-link active" aria-current="page" [routerLink]="['/addParticipant']">Add</a>
+      </div>
+    </div>
+    
+    </div>
+</nav>
+
+<h1 class="text-center">Event Management System</h1>
+  <footer class="footer">
+    <div class="container">
+      <span class="footer-text">All rights reserved</span>
+    </div>
+  </footer>
+       
+ 
+  <router-outlet></router-outlet>

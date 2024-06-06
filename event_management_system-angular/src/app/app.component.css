@@ -1,0 +1,22 @@
+.navbar-custom-blue {
+    background-color: rgb(45, 130, 234);
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(39, 156, 173);
+  }
+  .footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-text {
+    color: rgb(45, 130, 234);
+  }
